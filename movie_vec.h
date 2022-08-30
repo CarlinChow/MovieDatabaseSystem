@@ -13,9 +13,8 @@
 
 using namespace std;
 
-class movie_vec {
-
-public:
+class movie_vec{
+  public:
 
 	movie_vec(const string& fname)
 	: size_(0), capacity_(10), data_( new movie*[capacity_] ) 
@@ -49,9 +48,6 @@ public:
 			append(movie_record);
 		}
 	}
-
-	
-
 
 	virtual ~movie_vec(){ 
 		cout << "movie_vec destructor called\n";
@@ -108,18 +104,20 @@ public:
 		size_ = 0;
 	}
 
-private:
-	int size_;
-	int capacity_;
-	movie** data_;
-	void double_array(){
-		movie** result;
-		capacity_ = capacity_ * 2;
-		result = new movie*[capacity_];
-		for(int i = 0; i < size_; i++){
-			result[i] = data_[i];
-		}
-		delete[] data_;
-		data_ = result;
-	}
+  private:
+
+  int size_;
+  int capacity_;
+  movie** data_;
+  
+  void double_array(){
+    movie** result;
+    capacity_ = capacity_ * 2;
+    result = new movie*[capacity_];
+    for(int i = 0; i < size_; i++){
+      result[i] = data_[i];
+    }
+    delete[] data_;
+    data_ = result;
+  }
 }; // class movie_vec

@@ -9,12 +9,12 @@ using namespace std;
 class movie
 {
   private:
-  
-    const string movie_name;
-    const string director;
-    const int release_date; 
-    const int runtime; // Runtime in minutes
-    const double ratings; // 0 - 10
+
+  const string movie_name;
+  const string director;
+  const int release_date; 
+  const int runtime; // Runtime in minutes
+  const double ratings; // 0 - 10
 
   public:
   

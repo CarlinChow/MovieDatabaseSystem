@@ -9,14 +9,14 @@ using namespace std;
 class database : public movie_vec {
   private:
 
-    bool not_in_arr(const int* arr, const int last, const int key){
-      for(int i = 0; i < last; i++){
-        if(arr[i] == key){
-          return false;
-        }
+  bool not_in_arr(const int* arr, const int last, const int key){
+    for(int i = 0; i < last; i++){
+      if(arr[i] == key){
+        return false;
       }
-      return true;
     }
+    return true;
+  }
 
   public:
 
