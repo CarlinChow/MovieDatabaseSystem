@@ -1,0 +1,34 @@
+Pulp Fiction_Quentin Tarantino_1994_1994_154
+The Dark Knight_Christopher Nolan_2008_2008_152
+The Empire Strikes Back_Irvin Kershner_1980_1980_124
+Return of the Jedi_Richard Marquand_1983_1983_131
+Inception_Christopher Nolan_2010_2010_148
+The Sixth Sense_M.Night Shyamalan_1999_1999_107
+Man of Steel_Zack Synder_2013_2013_148
+Batman v Superman: Dawn of Justice_Zack Synder_2016_2016_183
+Interstellar_Christopher Nolan_2014_2014_175
+Black Hawk Down_Ridley Scott_2001_2001_152
+Back to the Future_Robert Zemeckis_1985_1985_116
+Transformers: Revenge of the Fallen_Michael Bay_2009_2009_149
+Transformers_Michael Bay_2007_2007_144
+Seven_David Fincher_1995_1995_128
+Django Unchained_Quentin Tarantino_2012_2012_165
+The Wolf of Wall Street_Martin Scorsese_2013_2013_180
+The Fast and the Furious_Rob Cohen_2001_2001_106
+Captain Marvel_Anna Boden_2019_2019_123
+The Godfather:Part II_Francis Ford Coppola_1974_1974_202
+The Godfather_Francis Ford Coppola_1972_1972_178
+Nightcrawler_Dan Gilroy_2014_2014_122
+A Quiet Place Part 2_John Krasinski_2021_2021_124
+Transformers_Michael Bay_2007_144_7.0
+Transformers: Revenge of the Fallen_Michael Bay_2009_149_6.0
+Black Hawk Down_Ridley Scott_2001_152_7.7
+Interstellar_Christopher Nolan_2014_175_8.6
+Batman v Superman: Dawn of Justice_Zack Synder_2016_183_6.4
+Man of Steel_Zack Synder_2013_148_7.0
+Jurassic Park_Steven Spielberg_1993_128_8.1
+Jaws_Steven Spielberg_1975_130_8.0
+Raiders of the Lost Ark_Steven Spielberg_1981_115_8.4
+Saving Private Ryan_Steven Spielberg_1998_170_8.6
+The Terminator_James Cameron_1984_108_8.0
+Fight Club_David Fincher_1999_151_8.8
