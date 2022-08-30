@@ -35,7 +35,7 @@ void menu_test(const string& fname){
 }
 
 int main(int, char* argv[]){
-	menu_test(argv[1]);
+  menu_test(argv[1]);
   return 0;
 }
 
