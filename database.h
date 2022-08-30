@@ -32,7 +32,7 @@ class database : public movie_vec {
     return tmp_str;
   }
 
-  void print_vec( int* arr ) {
+  void print_vec( int* arr ){
     unsigned int index = 0;
     while(arr[index] != -1){
       cout << get(arr[index])->get_movie_name() << "  "
@@ -45,8 +45,7 @@ class database : public movie_vec {
     delete[] arr;
   } 
   
-  int* sort_int( const int& sort, const int& type )
-  {
+  int* sort_int( const int& sort, const int& type ){
     // Parameters: Sort(0) = ascending, Sort(1) = descending
     //             Type(0) = release date, Type(1) = runtime
     //             Type(2) = ratings
