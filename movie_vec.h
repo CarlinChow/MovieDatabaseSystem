@@ -17,8 +17,7 @@ class movie_vec{
   public:
 
 	movie_vec(const string& fname)
-	: size_(0), capacity_(10), data_( new movie*[capacity_] ) 
-	{
+	: size_(0), capacity_(10), data_( new movie*[capacity_] ) {
 		ifstream fin;
 		fin.open( fname );
 		string line;
@@ -50,8 +49,8 @@ class movie_vec{
 	}
 
 	virtual ~movie_vec(){ 
-		cout << "movie_vec destructor called\n";
-		for(int i = 0; i < size(); i++){
+	  cout << "movie_vec destructor called\n";
+	  for(int i = 0; i < size(); i++){
 			delete data_[i];
 		}
 		delete[] data_; 
@@ -109,7 +108,7 @@ class movie_vec{
   int size_;
   int capacity_;
   movie** data_;
-  
+
   void double_array(){
     movie** result;
     capacity_ = capacity_ * 2;
